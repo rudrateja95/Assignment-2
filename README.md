@@ -45,3 +45,9 @@ python manage.py migrate
 
 # Run development server
 python manage.py runserver
+
+ Docker image :
+docker pull rudrateja95/task_manager:latest
+docker run -d -p 8080:8000 rudrateja95/task_manager:latest
+
+
